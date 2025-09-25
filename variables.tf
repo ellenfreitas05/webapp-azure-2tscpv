@@ -133,7 +133,5 @@ variable "secret_permissions" {
   description = "List of secret permissions."
   default     = ["Get", "List", "Set", "Delete", "Recover", "Backup", "Restore", "Purge"]
 }
-:wq
-:wq
 
 
