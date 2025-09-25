@@ -7,7 +7,7 @@ variable "resource_group_location" {
 variable "resource_group_name" {
   type        = string
   description = "Nome do Resource Group"
-  default     = "rg-webapp-fiap"
+  default     = "rm558664-webapp-fiap"
 }
 
 variable "vault_name" {
@@ -42,7 +42,7 @@ variable "sku_name" {
 variable "postgresql_name" {
   type        = string
   description = "Nome do servidor PostgreSQL"
-  default     = "postgres-webapp"
+  default     = "sql-webapp"
 }
 
 variable "postgresql_admin" {
@@ -66,13 +66,13 @@ variable "postgresql_version" {
 variable "postgresql_database" {
   type        = string
   description = "Nome do banco de dados PostgreSQL"
-  default     = "pgwebappdb"
+  default     = "rm558664webappdb"
 }
 
 variable "mysql_name" {
   type        = string
   description = "Nome do servidor MySQL"
-  default     = "mysql-webapp-pf0807"
+  default     = "mysql-webapp-rm558664"
 }
 
 variable "mysql_admin" {
@@ -96,13 +96,13 @@ variable "mysql_version" {
 variable "mysql_database" {
   type        = string
   description = "Nome do banco de dados MySQL"
-  default     = "mywebappdb"
+  default     = "webappdb"
 }
 
 variable "webapp_name" {
   type        = string
   description = "Nome do WebApp"
-  default     = "WebApp-lojavirtual"
+  default     = "WebApp-lojarm558664"
 }
 
 variable "webapp_plan" {
@@ -133,4 +133,7 @@ variable "secret_permissions" {
   description = "List of secret permissions."
   default     = ["Get", "List", "Set", "Delete", "Recover", "Backup", "Restore", "Purge"]
 }
+:wq
+:wq
+
 
